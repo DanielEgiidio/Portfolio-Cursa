@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #5e3bee;
+  --secondary-color: #282938;
+  --text-color: #282938;
+  --bg-color: #f5fcff;
+  --text-font: "Roboto", sans-serif;
+  --card-bg: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.5;
+}
